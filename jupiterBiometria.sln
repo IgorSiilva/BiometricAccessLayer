@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.156
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Futronic.Devices.FS26", "src\Futronic.Devices.FS26\Futronic.Devices.FS26.csproj", "{82B7F467-2404-49BB-9664-260B2AF71C16}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jupiterBiometria", "src\jupiterBiometria\jupiterBiometria.csproj", "{F56A561F-F5C0-4A77-84F0-47601FE81C15}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2B49DA26-0829-4DF9-A337-2CD661AE5504} = {2B49DA26-0829-4DF9-A337-2CD661AE5504}
+		{82B7F467-2404-49BB-9664-260B2AF71C16} = {82B7F467-2404-49BB-9664-260B2AF71C16}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadFingerprintDemo", "src\ReadFingerprintDemo\ReadFingerprintDemo.csproj", "{2B49DA26-0829-4DF9-A337-2CD661AE5504}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "JupiterBiometriaSetup", "JupiterBiometriaSetup\JupiterBiometriaSetup.vdproj", "{C7CEFE67-D88F-4B8F-83AB-2D42EE20B599}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{82B7F467-2404-49BB-9664-260B2AF71C16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82B7F467-2404-49BB-9664-260B2AF71C16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82B7F467-2404-49BB-9664-260B2AF71C16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82B7F467-2404-49BB-9664-260B2AF71C16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F56A561F-F5C0-4A77-84F0-47601FE81C15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F56A561F-F5C0-4A77-84F0-47601FE81C15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F56A561F-F5C0-4A77-84F0-47601FE81C15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F56A561F-F5C0-4A77-84F0-47601FE81C15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B49DA26-0829-4DF9-A337-2CD661AE5504}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B49DA26-0829-4DF9-A337-2CD661AE5504}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B49DA26-0829-4DF9-A337-2CD661AE5504}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B49DA26-0829-4DF9-A337-2CD661AE5504}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7CEFE67-D88F-4B8F-83AB-2D42EE20B599}.Debug|Any CPU.ActiveCfg = Debug
+		{C7CEFE67-D88F-4B8F-83AB-2D42EE20B599}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8AB2D25C-10DB-4EC2-9204-54830799D2E2}
+	EndGlobalSection
+EndGlobal
